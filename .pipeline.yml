@@ -6,6 +6,7 @@ pipeline:
     google_project: "kubernetes-workshop-medvekoma"
     google_node_count: "2"
     google_gke_version: "1.9"
+    cluster_state: "deleted"
 
     secrets: [plugin_endpoint, plugin_token]
 
